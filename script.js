@@ -13,7 +13,7 @@ document.addEventListener('keydown', (event) => {
             if (posY > 0)
                 posY = posY - moveSpeed;
             break;
-        case 'Arrowdown':
+        case 'ArrowDown':
             if (posY < window.innerHeight - circle.offsetHeight)
                 posY = posY + moveSpeed;
             break;
@@ -29,6 +29,6 @@ document.addEventListener('keydown', (event) => {
     updateCirclePosition();
 });
 function updateCirclePosition() {
-    circle.style.left = `${ posX } px`;
-    circle.style.top = `${posY} px`;
+    circle.style.left = `${posX}px`;
+    circle.style.top = `${posY}px`;
 }
