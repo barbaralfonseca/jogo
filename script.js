@@ -21,6 +21,8 @@ document.addEventListener('keydown', (event) => {
             if (posX > 0)
                 posX = posX - moveSpeed;
             break
-
+        case 'ArrowRight':
+            if (posX < window.innerWidth - circle.offsetWidth)
+                posX = posX + moveSpeed;
     }
 })
