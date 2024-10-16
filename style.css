@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+#gameArea{
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+}
+#circle{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    left: 50px;
+    top: 50px;
+}
+.square{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+.small-circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
